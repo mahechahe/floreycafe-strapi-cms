@@ -1,11 +1,10 @@
 {
-  "kind": "singleType",
-  "collectionName": "homes",
+  "kind": "collectionType",
+  "collectionName": "home_categories",
   "info": {
-    "singularName": "home",
-    "pluralName": "homes",
-    "displayName": "Home",
-    "description": ""
+    "singularName": "home-category",
+    "pluralName": "home-categories",
+    "displayName": "HomeCategory"
   },
   "options": {
     "draftAndPublish": true
@@ -16,10 +15,9 @@
     }
   },
   "attributes": {
-    "title": {
+    "name": {
       "type": "string",
       "required": true,
-      "minLength": 5,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -35,16 +33,12 @@
         }
       }
     },
-    "cover": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files"
-      ]
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
     },
-    "imageCategory": {
+    "image": {
       "allowedTypes": [
         "images",
         "files"
@@ -52,11 +46,6 @@
       "type": "media",
       "multiple": false,
       "required": true
-    },
-    "specialProducts": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::product.product"
     }
   }
 }
