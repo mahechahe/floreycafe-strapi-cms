@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_header_ui_categories_homes",
+  "info": {
+    "displayName": "CategoriesHome",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "minLength": 6
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "minLength": 5
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

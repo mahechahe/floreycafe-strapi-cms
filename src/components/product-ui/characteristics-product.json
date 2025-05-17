@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_product_ui_characteristics_products",
+  "info": {
+    "displayName": "characteristicsProduct"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

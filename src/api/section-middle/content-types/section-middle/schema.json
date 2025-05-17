@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "section_middles",
+  "info": {
+    "singularName": "section-middle",
+    "pluralName": "section-middles",
+    "displayName": "SectionMiddle",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title1": {
+      "type": "string",
+      "required": true
+    },
+    "image1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "title2": {
+      "type": "string",
+      "required": true
+    },
+    "image2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "description1": {
+      "type": "text",
+      "required": true
+    },
+    "description2": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

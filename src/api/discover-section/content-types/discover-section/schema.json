@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "discover_sections",
+  "info": {
+    "singularName": "discover-section",
+    "pluralName": "discover-sections",
+    "displayName": "DiscoverSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titleDiscover": {
+      "type": "string",
+      "required": true
+    },
+    "descriptionDiscover": {
+      "type": "blocks",
+      "required": true
+    },
+    "imageDiscover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "discoverItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "discover-ui.discover-item",
+      "required": true
+    }
+  }
+}

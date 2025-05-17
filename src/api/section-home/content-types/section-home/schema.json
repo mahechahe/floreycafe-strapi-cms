@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "section_homes",
+  "info": {
+    "singularName": "section-home",
+    "pluralName": "section-homes",
+    "displayName": "SectionHome"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "categoriesHomeLeft": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header-ui.categories-home"
+    },
+    "categoriesHomeRigth": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header-ui.categories-home"
+    },
+    "categoriesAll": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header-ui.categories-home"
+    }
+  }
+}

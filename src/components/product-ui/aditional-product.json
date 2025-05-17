@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_product_ui_aditional_products",
+  "info": {
+    "displayName": "AditionalProduct"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

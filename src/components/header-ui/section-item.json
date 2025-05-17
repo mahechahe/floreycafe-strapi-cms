@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_header_ui_section_items",
+  "info": {
+    "displayName": "sectionItem",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
